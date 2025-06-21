@@ -1,26 +1,54 @@
-@startuml vue-implementation
-package magasin {
+@startuml vue-implementation-detaillee
+title Vue d'Implémentation - Organisation des Composants
 
-  [controllers] as C
-  [views] as V
-  [templates] as T
-  [urls.py] as U
+skinparam componentStyle rectangle
 
-  package models {
-    [Magasin] as S1
-    [Produit] as S2
-    [Stock] as S3
-    [Vente] as S4
-    [ligneVente] as S5
+package "Application Django" {
+
+  package "Couche Logique (Controllers & Views)" {
+    [uc1_rapport_ventes.py] as C1
+    [uc2_stock.py] as C2
+    [uc3_performance.py] as C3
+    [uc4_produit.py] as C4
+    [uc6_validation.py] as C6
   }
 
-  C --> S1 : gère magasins
-  C --> S2 : gère produits
-  C --> S3 : gère stock
-  C --> S4 : gère ventes
-  C --> S5 : gère les lignes de vente
-  V --> C : appelle logique
-  U --> V : redirige vers
-  V --> T : affiche les pages HTML
+  package "Couche Données (Models)" {
+    [ORM Django] as ORM
+    note right of ORM
+      Gère les modèles :
+      - Produit
+      - Magasin
+      - Stock (Central/Local)
+      - Vente, LigneVente
+      - DemandeReapprovisionnement
+    end note
+  }
+
+  package "Couche Présentation (Templates)" {
+    [Templates HTML] as T
+  }
+
+  [urls.py] as U
 }
+
+
+U ..> C1
+U ..> C2
+U ..> C3
+U ..> C4
+U ..> C6
+
+C1 ..> ORM
+C2 ..> ORM
+C3 ..> ORM
+C4 ..> ORM
+C6 ..> ORM
+
+C1 ..> T
+C2 ..> T
+C3 ..> T
+C4 ..> T
+C6 ..> T
+
 @enduml

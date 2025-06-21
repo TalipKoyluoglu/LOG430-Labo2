@@ -1,35 +1,26 @@
-@startuml vue-deploiement
-title Vue de Déploiement - Magasin Central (Django + PostgreSQL + Docker)
+@startuml vue-deploiement-simplifiee
+title Vue de Déploiement - Environnement local
 
 skinparam linetype ortho
 skinparam componentStyle rectangle
 skinparam defaultTextAlignment center
 
-node "Machine de développement" as dev {
-  node "Navigateur Web" as browser {
-    component user as "Utilisateur"
-  }
+node "Poste de l'Utilisateur" as dev {
+  node "Navigateur Web" as browser
 }
 
-cloud "GitHub" {
-  node "CI/CD Pipeline" {
-    component github_actions as "GitHub Actions"
-  }
-}
-
-node "Docker Host (serveur local ou cloud)" as docker_host {
-  node "Container Web (Django)" as container_web {
+node "Serveur (Docker Host)" as docker_host {
+  node "Conteneur Web (Django)" as container_web {
     component app_django as "Application Django"
   }
 
-  node "Container PostgreSQL" as container_db {
+  node "Conteneur BD (PostgreSQL)" as container_db {
     component db_postgres as "Base de données PostgreSQL"
   }
 
-  app_django --> db_postgres : ORM psycopg2
+  app_django --> db_postgres : ORM (psycopg2)
 }
 
-user -right-> app_django : HTTP
-github_actions -right-> app_django : Docker deploy
+browser -right-> app_django : Requêtes HTTP
 
 @enduml

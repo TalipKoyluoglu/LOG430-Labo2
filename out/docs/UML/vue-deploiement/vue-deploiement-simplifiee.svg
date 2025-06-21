@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="343px" preserveAspectRatio="none" style="width:646px;height:343px;" version="1.1" viewBox="0 0 646 343" width="646px" zoomAndPan="magnify"><defs><filter height="300%" id="f1j4eikjt0g9go" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="383" x="125" y="16.708">Vue de Déploiement - Environnement local</text><!--MD5=[77b3d9609c746040fad605e65db5ebee]
+cluster dev--><polygon fill="#FFFFFF" filter="url(#f1j4eikjt0g9go)" points="16,79.9531,26,69.9531,255,69.9531,255,161.9531,245,171.9531,16,171.9531,16,79.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="245" x2="255" y1="79.9531" y2="69.9531"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="245" y1="79.9531" y2="79.9531"/><line style="stroke:#000000;stroke-width:1.5;" x1="245" x2="245" y1="79.9531" y2="171.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="163" x="50" y="95.9482">Poste de l'Utilisateur</text><!--MD5=[2f1a1fb4c4e5b0d462c5474bb3644c3b]
+cluster docker_host--><polygon fill="#FFFFFF" filter="url(#f1j4eikjt0g9go)" points="285,36.9531,295,26.9531,629,26.9531,629,326.9531,619,336.9531,285,336.9531,285,36.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="619" x2="629" y1="36.9531" y2="26.9531"/><line style="stroke:#000000;stroke-width:1.5;" x1="285" x2="619" y1="36.9531" y2="36.9531"/><line style="stroke:#000000;stroke-width:1.5;" x1="619" x2="619" y1="36.9531" y2="336.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="177" x="364.5" y="52.9482">Serveur (Docker Host)</text><!--MD5=[2ae99a86f875246eb5fc965b94901005]
+cluster container_web--><polygon fill="#FFFFFF" filter="url(#f1j4eikjt0g9go)" points="322,84.9531,332,74.9531,593,74.9531,593,156.9531,583,166.9531,322,166.9531,322,84.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="583" x2="593" y1="84.9531" y2="74.9531"/><line style="stroke:#000000;stroke-width:1.5;" x1="322" x2="583" y1="84.9531" y2="84.9531"/><line style="stroke:#000000;stroke-width:1.5;" x1="583" x2="583" y1="84.9531" y2="166.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="195" x="356" y="100.9482">Conteneur Web (Django)</text><!--MD5=[4006fa0e0cf33795675c26524c8c15ed]
+cluster container_db--><polygon fill="#FFFFFF" filter="url(#f1j4eikjt0g9go)" points="309,230.9531,319,220.9531,605,220.9531,605,302.9531,595,312.9531,309,312.9531,309,230.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="595" x2="605" y1="230.9531" y2="220.9531"/><line style="stroke:#000000;stroke-width:1.5;" x1="309" x2="595" y1="230.9531" y2="230.9531"/><line style="stroke:#000000;stroke-width:1.5;" x1="595" x2="595" y1="230.9531" y2="312.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="220" x="343" y="246.9482">Conteneur BD (PostgreSQL)</text><!--MD5=[23555a4f9c8a267cdfd801ad53ceaf15]
+entity browser--><polygon fill="#FEFECE" filter="url(#f1j4eikjt0g9go)" points="87,119.9531,97,109.9531,235,109.9531,235,146.25,225,156.25,87,156.25,87,119.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="225" x2="235" y1="119.9531" y2="109.9531"/><line style="stroke:#000000;stroke-width:1.5;" x1="87" x2="225" y1="119.9531" y2="119.9531"/><line style="stroke:#000000;stroke-width:1.5;" x1="225" x2="225" y1="119.9531" y2="156.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="102" y="142.9482">Navigateur Web</text><!--MD5=[ba73dccab37bffc130a2dd2aef639ce0]
+entity app_django--><rect fill="#FEFECE" filter="url(#f1j4eikjt0g9go)" height="36.2969" style="stroke:#000000;stroke-width:1.5;" width="148" x="368" y="114.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="378" y="137.9482">Application Django</text><!--MD5=[f835c538ac3a391182fe79b9db26f00f]
+entity db_postgres--><rect fill="#FEFECE" filter="url(#f1j4eikjt0g9go)" height="36.2969" style="stroke:#000000;stroke-width:1.5;" width="228" x="328" y="260.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="338" y="283.9482">Base de données PostgreSQL</text><!--MD5=[f2f977a79b49e442b9616f759bbb2102]
+link app_django to db_postgres--><path d="M442,151.1531 C442,151.1531 442,255.5231 442,255.5231 " fill="none" id="app_django-to-db_postgres" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="442,260.5231,446,251.5231,442,255.5231,438,251.5231,442,260.5231" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="104" x="443" y="201.02">ORM (psycopg2)</text><!--MD5=[374e6e6430a09e48ce69fde435e4aabb]
+link browser to app_django--><path d="M235.2,132.9531 C235.2,132.9531 362.87,132.9531 362.87,132.9531 " fill="none" id="browser-to-app_django" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="367.87,132.9531,358.87,128.9531,362.87,132.9531,358.87,136.9531,367.87,132.9531" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7e38457810382d6ee288c08b2ba75038]
+@startuml vue-deploiement-simplifiee
+title Vue de Déploiement - Environnement local
+
+skinparam linetype ortho
+skinparam componentStyle rectangle
+skinparam defaultTextAlignment center
+
+node "Poste de l'Utilisateur" as dev {
+  node "Navigateur Web" as browser
+}
+
+node "Serveur (Docker Host)" as docker_host {
+  node "Conteneur Web (Django)" as container_web {
+    component app_django as "Application Django"
+  }
+
+  node "Conteneur BD (PostgreSQL)" as container_db {
+    component db_postgres as "Base de données PostgreSQL"
+  }
+
+  app_django - -> db_postgres : ORM (psycopg2)
+}
+
+browser -right-> app_django : Requêtes HTTP
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 UTC 2021)
+(MIT source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

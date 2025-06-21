@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="409px" preserveAspectRatio="none" style="width:807px;height:409px;" version="1.1" viewBox="0 0 807 409" width="807px" zoomAndPan="magnify"><defs><filter height="300%" id="frpkrq905js93" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="417" x="188.75" y="16.708">Vue Logique - Modèles de l'application Magasin</text><!--MD5=[67e1aed5c2f4d55f1a3a0cfbc189f220]
+class Produit--><rect codeLine="8" fill="#FEFECE" filter="url(#frpkrq905js93)" height="104.0234" id="Produit" style="stroke:#A80036;stroke-width:1.5;" width="177" x="347.5" y="291.9531"/><ellipse cx="409.25" cy="307.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M412.2188,313.5938 Q411.6406,313.8906 411,314.0313 Q410.3594,314.1875 409.6563,314.1875 Q407.1563,314.1875 405.8281,312.5469 Q404.5156,310.8906 404.5156,307.7656 Q404.5156,304.6406 405.8281,302.9844 Q407.1563,301.3281 409.6563,301.3281 Q410.3594,301.3281 411,301.4844 Q411.6563,301.6406 412.2188,301.9375 L412.2188,304.6563 Q411.5938,304.0781 411,303.8125 Q410.4063,303.5313 409.7813,303.5313 Q408.4375,303.5313 407.75,304.6094 Q407.0625,305.6719 407.0625,307.7656 Q407.0625,309.8594 407.75,310.9375 Q408.4375,312 409.7813,312 Q410.4063,312 411,311.7344 Q411.5938,311.4531 412.2188,310.875 L412.2188,313.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="429.75" y="312.1074">Produit</text><line style="stroke:#A80036;stroke-width:1.5;" x1="348.5" x2="523.5" y1="323.9531" y2="323.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="353.5" y="338.1636">+nom: CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="353.5" y="350.9683">+categorie: CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="109" x="353.5" y="363.7729">+prix: DecimalField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="165" x="353.5" y="376.5776">+quantite_stock: IntegerField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="353.5" y="389.3823">+description: TextField</text><!--MD5=[ed3c962971a0335cfe15113458d16a5b]
+class Magasin--><rect codeLine="16" fill="#FEFECE" filter="url(#frpkrq905js93)" height="65.6094" id="Magasin" style="stroke:#A80036;stroke-width:1.5;" width="129" x="56.5" y="310.9531"/><ellipse cx="91.75" cy="326.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M94.7188,332.5938 Q94.1406,332.8906 93.5,333.0313 Q92.8594,333.1875 92.1563,333.1875 Q89.6563,333.1875 88.3281,331.5469 Q87.0156,329.8906 87.0156,326.7656 Q87.0156,323.6406 88.3281,321.9844 Q89.6563,320.3281 92.1563,320.3281 Q92.8594,320.3281 93.5,320.4844 Q94.1563,320.6406 94.7188,320.9375 L94.7188,323.6563 Q94.0938,323.0781 93.5,322.8125 Q92.9063,322.5313 92.2813,322.5313 Q90.9375,322.5313 90.25,323.6094 Q89.5625,324.6719 89.5625,326.7656 Q89.5625,328.8594 90.25,329.9375 Q90.9375,331 92.2813,331 Q92.9063,331 93.5,330.7344 Q94.0938,330.4531 94.7188,329.875 L94.7188,332.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="110.25" y="331.1074">Magasin</text><line style="stroke:#A80036;stroke-width:1.5;" x1="57.5" x2="184.5" y1="342.9531" y2="342.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="62.5" y="357.1636">+nom: CharField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="62.5" y="369.9683">+adresse: CharField</text><!--MD5=[8b815f60191748039831323499ca6ddb]
+class StockCentral--><rect codeLine="21" fill="#FEFECE" filter="url(#frpkrq905js93)" height="52.8047" id="StockCentral" style="stroke:#A80036;stroke-width:1.5;" width="141" x="652.5" y="166.4531"/><ellipse cx="680.55" cy="182.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M683.5188,188.0938 Q682.9406,188.3906 682.3,188.5313 Q681.6594,188.6875 680.9563,188.6875 Q678.4563,188.6875 677.1281,187.0469 Q675.8156,185.3906 675.8156,182.2656 Q675.8156,179.1406 677.1281,177.4844 Q678.4563,175.8281 680.9563,175.8281 Q681.6594,175.8281 682.3,175.9844 Q682.9563,176.1406 683.5188,176.4375 L683.5188,179.1563 Q682.8938,178.5781 682.3,178.3125 Q681.7063,178.0313 681.0813,178.0313 Q679.7375,178.0313 679.05,179.1094 Q678.3625,180.1719 678.3625,182.2656 Q678.3625,184.3594 679.05,185.4375 Q679.7375,186.5 681.0813,186.5 Q681.7063,186.5 682.3,186.2344 Q682.8938,185.9531 683.5188,185.375 L683.5188,188.0938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="80" x="697.45" y="186.6074">StockCentral</text><line style="stroke:#A80036;stroke-width:1.5;" x1="653.5" x2="792.5" y1="198.4531" y2="198.4531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="658.5" y="212.6636">+quantite: IntegerField</text><!--MD5=[e9f5f089ad33560b3c0980813b998014]
+class StockLocal--><rect codeLine="25" fill="#FEFECE" filter="url(#frpkrq905js93)" height="52.8047" id="StockLocal" style="stroke:#A80036;stroke-width:1.5;" width="141" x="270.5" y="166.4531"/><ellipse cx="304.4" cy="182.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M307.3688,188.0938 Q306.7906,188.3906 306.15,188.5313 Q305.5094,188.6875 304.8063,188.6875 Q302.3063,188.6875 300.9781,187.0469 Q299.6656,185.3906 299.6656,182.2656 Q299.6656,179.1406 300.9781,177.4844 Q302.3063,175.8281 304.8063,175.8281 Q305.5094,175.8281 306.15,175.9844 Q306.8063,176.1406 307.3688,176.4375 L307.3688,179.1563 Q306.7438,178.5781 306.15,178.3125 Q305.5563,178.0313 304.9313,178.0313 Q303.5875,178.0313 302.9,179.1094 Q302.2125,180.1719 302.2125,182.2656 Q302.2125,184.3594 302.9,185.4375 Q303.5875,186.5 304.9313,186.5 Q305.5563,186.5 306.15,186.2344 Q306.7438,185.9531 307.3688,185.375 L307.3688,188.0938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="322.6" y="186.6074">StockLocal</text><line style="stroke:#A80036;stroke-width:1.5;" x1="271.5" x2="410.5" y1="198.4531" y2="198.4531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="276.5" y="212.6636">+quantite: IntegerField</text><!--MD5=[96537f16a4bc8a4de6be121f37a27532]
+class DemandeReapprovisionnement--><rect codeLine="29" fill="#FEFECE" filter="url(#frpkrq905js93)" height="78.4141" id="DemandeReapprovisionnement" style="stroke:#A80036;stroke-width:1.5;" width="228" x="7" y="153.9531"/><ellipse cx="22" cy="169.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M24.9688,175.5938 Q24.3906,175.8906 23.75,176.0313 Q23.1094,176.1875 22.4063,176.1875 Q19.9063,176.1875 18.5781,174.5469 Q17.2656,172.8906 17.2656,169.7656 Q17.2656,166.6406 18.5781,164.9844 Q19.9063,163.3281 22.4063,163.3281 Q23.1094,163.3281 23.75,163.4844 Q24.4063,163.6406 24.9688,163.9375 L24.9688,166.6563 Q24.3438,166.0781 23.75,165.8125 Q23.1563,165.5313 22.5313,165.5313 Q21.1875,165.5313 20.5,166.6094 Q19.8125,167.6719 19.8125,169.7656 Q19.8125,171.8594 20.5,172.9375 Q21.1875,174 22.5313,174 Q23.1563,174 23.75,173.7344 Q24.3438,173.4531 24.9688,172.875 L24.9688,175.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="196" x="36" y="174.1074">DemandeReapprovisionnement</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="234" y1="185.9531" y2="185.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="173" x="13" y="200.1636">+quantite: PositiveIntegerField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="13" y="212.9683">+date: DateTimeField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="13" y="225.7729">+statut: CharField</text><!--MD5=[af358a925ab72893600c8103e45e46a7]
+class Vente--><rect codeLine="35" fill="#FEFECE" filter="url(#frpkrq905js93)" height="65.6094" id="Vente" style="stroke:#A80036;stroke-width:1.5;" width="171" x="157.5" y="27.9531"/><ellipse cx="220.25" cy="43.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M223.2188,49.5938 Q222.6406,49.8906 222,50.0313 Q221.3594,50.1875 220.6563,50.1875 Q218.1563,50.1875 216.8281,48.5469 Q215.5156,46.8906 215.5156,43.7656 Q215.5156,40.6406 216.8281,38.9844 Q218.1563,37.3281 220.6563,37.3281 Q221.3594,37.3281 222,37.4844 Q222.6563,37.6406 223.2188,37.9375 L223.2188,40.6563 Q222.5938,40.0781 222,39.8125 Q221.4063,39.5313 220.7813,39.5313 Q219.4375,39.5313 218.75,40.6094 Q218.0625,41.6719 218.0625,43.7656 Q218.0625,45.8594 218.75,46.9375 Q219.4375,48 220.7813,48 Q221.4063,48 222,47.7344 Q222.5938,47.4531 223.2188,46.875 L223.2188,49.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="37" x="240.75" y="48.1074">Vente</text><line style="stroke:#A80036;stroke-width:1.5;" x1="158.5" x2="327.5" y1="59.9531" y2="59.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="163.5" y="74.1636">+date_vente: DateTimeField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="163.5" y="86.9683">+total: DecimalField</text><!--MD5=[8e668473617d47d9fe96b034c6be2a9f]
+class LigneVente--><rect codeLine="40" fill="#FEFECE" filter="url(#frpkrq905js93)" height="65.6094" id="LigneVente" style="stroke:#A80036;stroke-width:1.5;" width="170" x="447" y="159.9531"/><ellipse cx="492.75" cy="175.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M495.7188,181.5938 Q495.1406,181.8906 494.5,182.0313 Q493.8594,182.1875 493.1563,182.1875 Q490.6563,182.1875 489.3281,180.5469 Q488.0156,178.8906 488.0156,175.7656 Q488.0156,172.6406 489.3281,170.9844 Q490.6563,169.3281 493.1563,169.3281 Q493.8594,169.3281 494.5,169.4844 Q495.1563,169.6406 495.7188,169.9375 L495.7188,172.6563 Q495.0938,172.0781 494.5,171.8125 Q493.9063,171.5313 493.2813,171.5313 Q491.9375,171.5313 491.25,172.6094 Q490.5625,173.6719 490.5625,175.7656 Q490.5625,177.8594 491.25,178.9375 Q491.9375,180 493.2813,180 Q493.9063,180 494.5,179.7344 Q495.0938,179.4531 495.7188,178.875 L495.7188,181.5938 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="513.25" y="180.1074">LigneVente</text><line style="stroke:#A80036;stroke-width:1.5;" x1="448" x2="616" y1="191.9531" y2="191.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="453" y="206.1636">+quantite: IntegerField</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="158" x="453" y="218.9683">+prix_unitaire: DecimalField</text><!--MD5=[df7c146d9f8b7f9a2e896333602a4ade]
+link StockCentral to Produit--><path codeLine="47" d="M723,219.6031 C723,262.9531 723,343.9531 723,343.9531 C723,343.9531 609.13,343.9531 524.84,343.9531 " fill="none" id="StockCentral-Produit" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="697.4844" y="239.1762">1..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="532.5283" y="340.4035">1</text><!--MD5=[1c5cfe1d3147683e96cce2d030dedb70]
+link StockLocal to Produit--><path codeLine="48" d="M379.5,219.6031 C379.5,239.5831 379.5,267.5631 379.5,291.9231 " fill="none" id="StockLocal-Produit" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="362.4063" y="239.1762">1..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="363.3703" y="280.998">1</text><!--MD5=[96147e0d6f6e208ff7b1145a0fdcdf1c]
+link StockLocal to Magasin--><path codeLine="49" d="M309,219.7031 C309,265.7131 309,354.9531 309,354.9531 C309,354.9531 240.08,354.9531 185.7,354.9531 " fill="none" id="StockLocal-Magasin" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="276.4844" y="239.2981">1..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="193.6434" y="352.455">1</text><!--MD5=[39ed337b2d86bc92fbbac6446268f876]
+link DemandeReapprovisionnement to Produit--><path codeLine="51" d="M210.25,231.9931 C210.25,263.2731 210.25,301.9531 210.25,301.9531 C210.25,301.9531 284.18,301.9531 347.43,301.9531 " fill="none" id="DemandeReapprovisionnement-Produit" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="218.5242" y="252.3249">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="331.4748" y="294.7708">1</text><!--MD5=[be2df7b10ff182218eb077c1373d166a]
+link DemandeReapprovisionnement to Magasin--><path codeLine="52" d="M121,232.2331 C121,256.6131 121,287.5931 121,310.7431 " fill="none" id="DemandeReapprovisionnement-Magasin" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="113.3984" y="252.3162">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="112.2125" y="299.8468">1</text><!--MD5=[de5a26aaaef070dfe67db12b11d47007]
+link Vente to Magasin--><path codeLine="54" d="M252.75,94.0331 C252.75,166.5231 252.75,332.9531 252.75,332.9531 C252.75,332.9531 219.04,332.9531 185.72,332.9531 " fill="none" id="Vente-Magasin" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="246.9023" y="113.6302">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="193.6658" y="327.9112">1</text><!--MD5=[25a3431357b57695efc72a39bc2e4dec]
+link Vente to LigneVente--><path codeLine="55" d="M328.54,60.9531 C413.76,60.9531 532,60.9531 532,60.9531 C532,60.9531 532,120.5431 532,159.6431 " fill="none" id="Vente-LigneVente" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="336.5147" y="57.3754">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="524.3328" y="148.9805">*</text><!--MD5=[9529ec470da1f530858b9899ac945ecd]
+link LigneVente to Produit--><path codeLine="56" d="M485.75,226.0931 C485.75,245.3631 485.75,270.0831 485.75,291.9031 " fill="none" id="LigneVente-Produit" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="469.5773" y="245.7013">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="483.8977" y="280.9753">1</text><!--MD5=[459d4e934c40e15290212e5f72f3680f]
+@startuml Vue-logique-corrigee
+
+title Vue Logique - Modèles de l'application Magasin
+
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+hide empty members
+
+class Produit {
+  +nom: CharField
+  +categorie: CharField
+  +prix: DecimalField
+  +quantite_stock: IntegerField
+  +description: TextField
+}
+
+class Magasin {
+  +nom: CharField
+  +adresse: CharField
+}
+
+class StockCentral {
+  +quantite: IntegerField
+}
+
+class StockLocal {
+  +quantite: IntegerField
+}
+
+class DemandeReapprovisionnement {
+  +quantite: PositiveIntegerField
+  +date: DateTimeField
+  +statut: CharField
+}
+
+class Vente {
+  +date_vente: DateTimeField
+  +total: DecimalField
+}
+
+class LigneVente {
+  +quantite: IntegerField
+  +prix_unitaire: DecimalField
+}
+
+' - - - Relations - - -
+
+StockCentral "1..*" - - "1" Produit
+StockLocal "1..*" - - "1" Produit
+StockLocal "1..*" - - "1" Magasin
+
+DemandeReapprovisionnement "*" - - "1" Produit
+DemandeReapprovisionnement "*" - - "1" Magasin
+
+Vente "*" - - "1" Magasin
+Vente "1" - - "*" LigneVente
+LigneVente "*" - - "1" Produit
+
+
+@enduml
+
+@startuml Vue-logique-corrigee
+
+title Vue Logique - Modèles de l'application Magasin
+
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+hide empty members
+
+class Produit {
+  +nom: CharField
+  +categorie: CharField
+  +prix: DecimalField
+  +quantite_stock: IntegerField
+  +description: TextField
+}
+
+class Magasin {
+  +nom: CharField
+  +adresse: CharField
+}
+
+class StockCentral {
+  +quantite: IntegerField
+}
+
+class StockLocal {
+  +quantite: IntegerField
+}
+
+class DemandeReapprovisionnement {
+  +quantite: PositiveIntegerField
+  +date: DateTimeField
+  +statut: CharField
+}
+
+class Vente {
+  +date_vente: DateTimeField
+  +total: DecimalField
+}
+
+class LigneVente {
+  +quantite: IntegerField
+  +prix_unitaire: DecimalField
+}
+
+
+StockCentral "1..*" - - "1" Produit
+StockLocal "1..*" - - "1" Produit
+StockLocal "1..*" - - "1" Magasin
+
+DemandeReapprovisionnement "*" - - "1" Produit
+DemandeReapprovisionnement "*" - - "1" Magasin
+
+Vente "*" - - "1" Magasin
+Vente "1" - - "*" LigneVente
+LigneVente "*" - - "1" Produit
+
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 UTC 2021)
+(MIT source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

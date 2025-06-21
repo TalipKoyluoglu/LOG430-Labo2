@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="416px" preserveAspectRatio="none" style="width:961px;height:416px;" version="1.1" viewBox="0 0 961 416" width="961px" zoomAndPan="magnify"><defs><filter height="300%" id="f16955q8862r1x" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="474" x="237" y="16.708">Vue d'Implémentation - Organisation des Composants</text><!--MD5=[ac8bc1451d14cde2f2fde2e4b9f41c72]
+cluster Application Django--><polygon fill="#FFFFFF" filter="url(#f16955q8862r1x)" points="16,26.9531,168,26.9531,175,49.25,944,49.25,944,409.9531,16,409.9531,16,26.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="175" y1="49.25" y2="49.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="146" x="20" y="41.9482">Application Django</text><!--MD5=[5febc7419a8c78b0929c0374c1dbaf0c]
+cluster Couche Logique (Controllers & Views)--><polygon fill="#FFFFFF" filter="url(#f16955q8862r1x)" points="40,122.9531,350,122.9531,357,145.25,920,145.25,920,209.9531,40,209.9531,40,122.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="357" y1="145.25" y2="145.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="304" x="44" y="137.9482">Couche Logique (Controllers &amp; Views)</text><!--MD5=[4038bd0219ded7e895c50b60f8f18747]
+cluster Couche Données (Models)--><polygon fill="#FFFFFF" filter="url(#f16955q8862r1x)" points="187,233.9531,401,233.9531,408,256.25,592,256.25,592,385.9531,187,385.9531,187,233.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="187" x2="408" y1="256.25" y2="256.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="208" x="191" y="248.9482">Couche Données (Models)</text><!--MD5=[fecf83ef239e52cf25482b56651de46e]
+cluster Couche Présentation (Templates)--><polygon fill="#FFFFFF" filter="url(#f16955q8862r1x)" points="616,266.4531,887,266.4531,894,288.75,897,288.75,897,353.4531,616,353.4531,616,266.4531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="616" x2="894" y1="288.75" y2="288.75"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="265" x="620" y="281.4482">Couche Présentation (Templates)</text><!--MD5=[ee0fec323975fbe97ba28321ad4c4bf3]
+entity U--><rect fill="#FEFECE" filter="url(#f16955q8862r1x)" height="36.2969" style="stroke:#000000;stroke-width:1.5;" width="65" x="468.5" y="61.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="478.5" y="84.9482">urls.py</text><!--MD5=[55b6f7fe569c88e778889e4a7d46dc6f]
+entity C1--><rect fill="#FEFECE" filter="url(#f16955q8862r1x)" height="36.2969" style="stroke:#000000;stroke-width:1.5;" width="177" x="55.5" y="157.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="65.5" y="180.9482">uc1_rapport_ventes.py</text><!--MD5=[2324993324a80522a7091d42b9118e29]
+entity C2--><rect fill="#FEFECE" filter="url(#f16955q8862r1x)" height="36.2969" style="stroke:#000000;stroke-width:1.5;" width="111" x="793.5" y="157.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="803.5" y="180.9482">uc2_stock.py</text><!--MD5=[05d3c132bed6e058ad55d82af5f30f96]
+entity C3--><rect fill="#FEFECE" filter="url(#f16955q8862r1x)" height="36.2969" style="stroke:#000000;stroke-width:1.5;" width="161" x="597.5" y="157.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="607.5" y="180.9482">uc3_performance.py</text><!--MD5=[92ed0b7d55449354be29483e00621f1b]
+entity C4--><rect fill="#FEFECE" filter="url(#f16955q8862r1x)" height="36.2969" style="stroke:#000000;stroke-width:1.5;" width="122" x="440" y="157.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="450" y="180.9482">uc4_produit.py</text><!--MD5=[217c58744140f3586f22ecd1419b458c]
+entity C6--><rect fill="#FEFECE" filter="url(#f16955q8862r1x)" height="36.2969" style="stroke:#000000;stroke-width:1.5;" width="137" x="267.5" y="157.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="277.5" y="180.9482">uc6_validation.py</text><!--MD5=[98debdbd1e7fc65cc980069a5574c645]
+entity ORM--><rect fill="#FEFECE" filter="url(#f16955q8862r1x)" height="36.2969" style="stroke:#000000;stroke-width:1.5;" width="106" x="203" y="301.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="213" y="324.4482">ORM Django</text><path d="M344,268.9531 L344,315.4531 L309.39,319.4531 L344,323.4531 L344,369.75 A0,0 0 0 0 344,369.75 L576,369.75 A0,0 0 0 0 576,369.75 L576,278.9531 L566,268.9531 L344,268.9531 A0,0 0 0 0 344,268.9531 " fill="#FBFB77" filter="url(#f16955q8862r1x)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M566,268.9531 L566,278.9531 L576,278.9531 L566,268.9531 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="120" x="350" y="286.02">Gère les modèles :</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="54" x="350" y="301.1528">- Produit</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="350" y="316.2856">- Magasin</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="350" y="331.4185">- Stock (Central/Local)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="350" y="346.5513">- Vente, LigneVente</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="211" x="350" y="361.6841">- DemandeReapprovisionnement</text><!--MD5=[1daea32f23ea6c81361d0f13801d7efd]
+entity T--><rect fill="#FEFECE" filter="url(#f16955q8862r1x)" height="36.2969" style="stroke:#000000;stroke-width:1.5;" width="135" x="632.5" y="301.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="642.5" y="324.4482">Templates HTML</text><!--MD5=[7f1fd2615cf652d5a1ca155aa165fea6]
+link U to C1--><path d="M468.42,81.4531 C419.67,83.0731 325.43,89.5531 250,114.9531 C221.94,124.4031 192.86,141.4731 172.27,154.9931 " fill="none" id="U-to-C1" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="168.01,157.8231,177.7238,156.1975,172.1812,155.0661,173.3126,149.5236,168.01,157.8231" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a1acc02bc69e17110dc879abdcd66fd5]
+link U to C2--><path d="M533.54,82.7031 C596.6,86.4631 733.01,96.5031 776,114.9531 C796.81,123.8831 816.4,140.6231 830.04,154.1631 " fill="none" id="U-to-C2" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="833.72,157.8831,830.2402,148.6695,830.206,154.3262,824.5492,154.2919,833.72,157.8831" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e96b4bdd850f97c470797821b30b5894]
+link U to C3--><path d="M533.77,93.8231 C548.17,99.7931 565.15,107.2631 580,114.9531 C603.55,127.1531 629.07,142.8631 648.16,155.1431 " fill="none" id="U-to-C3" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="652.38,157.8731,646.9922,149.6286,648.1806,155.1592,642.65,156.3476,652.38,157.8731" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[32ec12c86bd67c3f0fe67b966f2c2a6f]
+link U to C4--><path d="M501,98.1931 C501,113.4331 501,135.7631 501,152.4131 " fill="none" id="U-to-C4" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="501,157.8231,505,148.8231,501,152.8231,497,148.8231,501,157.8231" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4f2fb7afe21f18765cc430eea5d41255]
+link U to C6--><path d="M468.45,93.4931 C454.2,99.4031 437.46,106.9131 423,114.9531 C401.71,126.7931 379.11,142.4831 362.28,154.8531 " fill="none" id="U-to-C6" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="358.13,157.9231,367.7437,155.7836,362.1488,154.9484,362.984,149.3535,358.13,157.9231" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a08ca4d857f4229a8c1df8f820fabcde]
+link C1 to ORM--><path d="M157.51,194.0231 C178.03,219.9431 217.01,269.1931 239.28,297.3331 " fill="none" id="C1-to-ORM" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="242.44,301.3231,239.9667,291.7899,239.327,297.4104,233.7064,296.7707,242.44,301.3231" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3d31060f1f8ea3c4b1e235486e3248be]
+link C2 to ORM--><path d="M825.64,194.0131 C811.92,202.9931 793.82,213.1231 776,217.9531 C751.92,224.4831 349.28,214.7231 327,225.9531 C297.47,240.8431 276.71,274.4031 265.56,296.7331 " fill="none" id="C2-to-ORM" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="263.32,301.3231,270.8502,294.9752,265.5045,296.8256,263.6541,291.4799,263.32,301.3231" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5b2ad97231d7f4ec9bf8ee88d4c2c057]
+link C3 to ORM--><path d="M645.42,194.1131 C626.8,203.0131 602.71,213.0231 580,217.9531 C552.52,223.9231 352.03,213.1231 327,225.9531 C297.57,241.0431 276.79,274.5531 265.6,296.8131 " fill="none" id="C3-to-ORM" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="263.36,301.3831,270.9305,295.0834,265.5732,296.8996,263.7569,291.5423,263.36,301.3831" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[031c6b1880303b70ed0152bc1625953a]
+link C4 to ORM--><path d="M474.69,193.9631 C459.83,202.6931 440.56,212.5931 422,217.9531 C401.65,223.8331 345.59,215.7931 327,225.9531 C298.14,241.7231 277.32,274.7231 265.95,296.7431 " fill="none" id="C4-to-ORM" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="263.67,301.2631,271.2965,295.0313,265.9232,296.7996,264.1549,291.4262,263.67,301.2631" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[20247ec0857be428a229340353900112]
+link C6 to ORM--><path d="M326.35,194.0231 C311.81,219.7331 284.31,268.3831 268.34,296.6331 " fill="none" id="C6-to-ORM" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="265.68,301.3231,273.5851,295.4486,268.1361,296.9679,266.6167,291.5189,265.68,301.3231" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a40a577d8791a5c0355b11aab8124bc6]
+link C1 to T--><path d="M178.9,193.9731 C199.14,202.9431 225.42,213.0631 250,217.9531 C287.28,225.3631 556.5,212.3531 592,225.9531 C629.98,240.5031 663.8,274.6331 683.09,297.1131 " fill="none" id="C1-to-T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="686.52,301.1731,683.7585,291.7193,683.2896,297.3567,677.6523,296.8879,686.52,301.1731" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e3d18b2e5b2f5d59d4018b80d7a3d406]
+link C2 to T--><path d="M831.03,194.0231 C803.62,220.0531 751.45,269.5931 721.88,297.6731 " fill="none" id="C2-to-T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="718.04,301.3231,727.322,298.0301,721.6671,297.8816,721.8156,292.2267,718.04,301.3231" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d23018ef232457cb1ad1bca00aca61e9]
+link C3 to T--><path d="M680.65,194.0231 C684.63,219.6231 692.15,267.9831 696.55,296.2831 " fill="none" id="C3-to-T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="697.34,301.3231,699.9043,291.814,696.569,296.3829,692,293.0476,697.34,301.3231" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ac1a4d7ea24ae6419d9f05cfa613d496]
+link C4 to T--><path d="M537.04,194.1031 C554.19,202.8231 574.69,214.0831 592,225.9531 C624.01,247.9031 657.43,277.7831 678.47,297.5631 " fill="none" id="C4-to-T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="682.24,301.1431,678.4455,292.0546,678.6057,297.7092,672.9511,297.8694,682.24,301.1431" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4f7dc670af75526ac12e9d2262b951aa]
+link C6 to T--><path d="M364.72,194.0031 C381.19,202.8631 402.58,212.8731 423,217.9531 C459.49,227.0331 557.05,212.0831 592,225.9531 C629.8,240.9531 663.68,274.9531 683.02,297.2931 " fill="none" id="C6-to-T" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="686.47,301.3131,683.6704,291.8705,683.2243,297.5098,677.5851,297.0637,686.47,301.3131" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3bd31dc3593b77223433fd25dfc48195]
+@startuml vue-implementation-detaillee
+title Vue d'Implémentation - Organisation des Composants
+
+skinparam componentStyle rectangle
+
+package "Application Django" {
+
+  package "Couche Logique (Controllers & Views)" {
+    [uc1_rapport_ventes.py] as C1
+    [uc2_stock.py] as C2
+    [uc3_performance.py] as C3
+    [uc4_produit.py] as C4
+    [uc6_validation.py] as C6
+  }
+
+  package "Couche Données (Models)" {
+    [ORM Django] as ORM
+    note right of ORM
+      Gère les modèles :
+      - Produit
+      - Magasin
+      - Stock (Central/Local)
+      - Vente, LigneVente
+      - DemandeReapprovisionnement
+    end note
+  }
+
+  package "Couche Présentation (Templates)" {
+    [Templates HTML] as T
+  }
+
+  [urls.py] as U
+}
+
+
+U ..> C1
+U ..> C2
+U ..> C3
+U ..> C4
+U ..> C6
+
+C1 ..> ORM
+C2 ..> ORM
+C3 ..> ORM
+C4 ..> ORM
+C6 ..> ORM
+
+C1 ..> T
+C2 ..> T
+C3 ..> T
+C4 ..> T
+C6 ..> T
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 UTC 2021)
+(MIT source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
