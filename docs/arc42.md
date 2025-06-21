@@ -18,13 +18,13 @@ Ce rapport documente la transformation d'un système de caisse console simple (L
 
 ### 1.2 Objectifs Architecturaux
 
-#### Objectifs Fonctionnels :
+#### Objectifs fonctionnels :
 - **Gestion Multi-Magasins :** Centraliser la supervision des ventes et des stocks de plusieurs magasins.
 - **Gestion des Stocks :** Permettre aux employés de consulter le stock central et de soumettre des demandes de réapprovisionnement.
 - **Rapports Stratégiques :** Fournir aux gestionnaires des rapports consolidés sur la performance des ventes.
 - **Gestion des Produits :** Permettre à la maison-mère de gérer le catalogue de produits (création, modification).
 
-#### Objectifs Non-Fonctionnels (Attributs de Qualité) :
+#### Objectifs non-fonctionnels (Attributs de Qualité) :
 - **Maintenabilité :** Assurer une architecture modulaire (MVC) permettant des modifications et des ajouts de fonctionnalités avec un effort prévisible.
 - **Déployabilité :** Garantir un déploiement fiable et reproductible sur n'importe quel environnement grâce à la conteneurisation Docker.
 - **Scalabilité :** Concevoir le système pour qu'il puisse supporter l'ajout de nouveaux magasins sans nécessiter de refactoring majeur de l'architecture.
